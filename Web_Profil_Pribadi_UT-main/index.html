@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - MUHAMMAD ABDI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Halo, Saya <span class="highlight">MUHAMMAD ABDI</span></h1>
+            <p class="tagline">Mahasiswa Pengembangan Web</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="profile-card">
+            <img src="abdi.jpeg" alt="Foto Profil" class="profile-img">
+            <div class="profile-info">
+                <h2>MUHAMMAD ABDI</h2>
+                <p><i class="fas fa-map-marker-alt"></i> Banjar, Kalimantan Selatan, Indonesia </p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <section id="about" class="section">
+            <h2><i class="fas fa-user"></i> Tentang Saya</h2>
+            <div class="content">
+                <p>Saya adalah mahasiswa yang bersemangat dalam bidang pengembangan web. Saat ini sedang mempelajari berbagai teknologi web modern untuk membangun aplikasi yang menarik dan fungsional.</p>
+                <p>Saya memiliki minat khusus dalam desain antarmuka pengguna dan pengalaman pengguna (UI/UX) serta selalu ingin mempelajari hal-hal baru di dunia teknologi.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2><i class="fas fa-code"></i> Keahlian</h2>
+            <div class="content">
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li><i class="fab fa-html5"></i> HTML5</li>
+                            <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                            <li><i class="fab fa-js"></i> JavaScript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li><i class="fab fa-php"></i> PHP</li>
+                            <li><i class="fas fa-database"></i> MySQL</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Tools</h3>
+                        <ul>
+                            <li><i class="fab fa-git"></i> Git</li>
+                            <li><i class="fab fa-figma"></i> Figma</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2><i class="fas fa-envelope"></i> Kontak</h2>
+            <div class="content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" placeholder="Masukkan nama Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Masukkan email Anda">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" placeholder="Tulis pesan Anda"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Kirim Pesan</button>
+                </form>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> amangzeneth@gmail.com</p>
+                    <p><i class="fab fa-whatsapp"></i> +62 813 7813 9304</p>
+                    <p><i class="fab fa-instagram"></i> @abdi_an2234</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 [Shadow]. All rights reserved.</p>
+    </footer>
+
+    <button id="toggleBtn" class="floating-btn" title="Toggle Sections">
+        <i class="fas fa-eye"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
